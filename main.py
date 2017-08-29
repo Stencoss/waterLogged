@@ -37,8 +37,8 @@ while True:
 		print (ra.send (dev_id, 'Low Water! You know what needs to be done!'))
 	elif distanceFromWater >= 40:
 		print (ra.send(dev_id, 'About half water left, consider giving me a few pints'))
-	elif distanceFromWater >= 0:
-				print (ra.send(dev_id, 'Test Notification - Boobs'))
+	#elif distanceFromWater >= 0:
+	#			print (ra.send(dev_id, 'Test Notification'))
 	else:
 		print ("Looking good, no notifications")
 	time.sleep(14400)
