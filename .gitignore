@@ -1,0 +1,4 @@
+/config
+/Untracked
+*.pyc
+/_pycache_
