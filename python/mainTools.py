@@ -89,6 +89,11 @@ class range_finder():
 	def sendToFile(self, waterValue):
 		f = open('')
 
+	# Placeholder for percent class this will take the measurement from rangefinder and 
+	# use the equation 1 - [((range) - 23) / 36] = percent remaining.  It will have to
+	# account for negative numbers and also 0.  Both which would be errors.  It should
+	# be directly intergrated into waterLogged GUI 
+
 
 
 class remoteAlert:
